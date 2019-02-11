@@ -13,6 +13,4 @@ public interface TechnicienRepository extends JpaRepository<Technicien, Long> {
 
     Slice<Technicien> findTop5ByGrade(Integer grade);
 
-    Technicien findByMatricule(String matricule);
-
 }
